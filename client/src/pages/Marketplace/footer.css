@@ -1,0 +1,111 @@
+/* Main container style for the footer */
+.marketplace-footer {
+  background-color: #252323;
+  padding: 20px;
+}
+
+/* Container for the content within the footer */
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%; /* Smaller spacing between items */
+  margin-left: 4%;
+}
+
+/* Style for the "short about" section */
+.short-about {
+  flex: 1 1 300px;
+  max-width: 400px;
+  color: white; /* Font color */
+  display: flex;
+  flex-direction: column;
+  padding-top: -30px;
+  align-items: flex-start; /* Align items to the start */
+}
+
+.short-about h2 {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 45px;
+  margin-bottom: 0%;
+}
+
+.short-about p {
+  font-size: smaller;
+}
+
+/* Style for the social media links section */
+.social-media-links {
+  flex: 1 1 200px;
+  max-width: 200px;
+  text-align: left; /* Center align the links */
+  align-self: flex-start; /* Align the links to the top */
+}
+
+.social-media-links h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px; /* Reduced space below "Follow us" */
+  color: white; /* Font color */
+}
+
+.social-media-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-media-links li {
+  margin-bottom: 8px;
+}
+
+.social-media-links a {
+  color: white; /* Link color */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth color transition */
+  font-size: smaller;
+}
+
+.social-media-links a:hover {
+  color: #e62424; /* Color on hover */
+}
+
+/* Style for the newsletter section */
+.newsletter {
+  flex: 1 1 400px; /* Increased space for the newsletter */
+  max-width: 400px;
+  color: white; /* Font color */
+}
+
+.newsletter h3 {
+  font-size: 1.2em;
+}
+
+.newsletter form {
+  display: flex;
+}
+
+.newsletter input {
+  flex: 1;
+  padding: 8px;
+}
+
+.newsletter button {
+  padding: 8px;
+  background-color: #ce2222;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #f12626; /* Background color on hover */
+}
+
+/* Style for the "rights reserved" section */
+.rights-reserved {
+  margin-top: 0%;
+  color: white; /* Font color */
+}
+
+.rights-reserved p {
+  text-align: center;
+  font-size: 11px;
+}

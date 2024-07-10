@@ -1,0 +1,92 @@
+/* SIGN UP PAGE */
+/* Styling for the sign-up container */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('./img/login-pic.jpg') center center/cover;
+  }
+  
+  .ssignup-link {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 4px;
+    border-bottom: 3px solid rgb(255, 210, 12); 
+  }
+  
+  
+  .ssignin-link {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid transparent; /* Initial underline color and thickness */
+    transition: border-bottom 0.3s ease; /* Transition effect for a smooth hover */
+    padding-bottom: 4px;
+  }
+  
+  .ssignin-link:hover {
+    border-bottom: 3px solid rgb(255, 210, 12); /* Hovered underline color and thickness */
+  }
+  
+  /* Styling for the sign-up form */
+  .signup-form {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(10, 66, 22, 0.399);
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px; /* Adjust the margin-top to create spacing with h1 */
+  }
+  
+  /* Styling for the sign-up form container */
+  .signup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  
+  /* Styling for the sign-up form input fields */
+  .signup input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+  }
+  
+  
+  /* Styling for the "Show Password" icon in the sign-up form */
+  .signin-show-pass {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  /* Styling for the "Sign Up" button in the sign-up form */
+  .signup button {
+    width: 30%;
+    padding: 12px;
+    background-color: #1f432a;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+    margin-bottom: 60px; 
+    text-align: center;
+  }
+  
+  /* Hover effect for the login form button */
+  .signup button:hover {
+    background-color: #d31b1b;
+  }

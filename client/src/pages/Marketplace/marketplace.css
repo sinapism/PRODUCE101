@@ -1,0 +1,155 @@
+/* Navigation bar */
+.market-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px; 
+  background-color: #398163;
+}
+
+.nav-buttons {
+  display: flex;
+}
+
+.home-button,
+.shop-button,
+.account-button,
+.cart-button {
+  margin-right: 20px;
+  background: none; /* Remove background */
+  border: none; /* Remove border if any */
+  padding: 0; /* Remove padding to make text closer to the edge */
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* Optionally, you can add styles for hover effects */
+.shop-button:hover,
+.account-button:hover,
+.cart-button:hover {
+  text-decoration: underline; /* Underline text on hover */
+}
+
+/* Marketplace header styling */
+.marketplace-header {
+  text-align: center;
+}
+
+.marketplace-content {
+  position: relative;
+  margin-top: 10px;
+}
+
+.marketplace-carousel {
+  width: 93%;
+  margin: 0 auto; /* Center carousel */
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+/* Change color of slider buttons */
+.marketplace-carousel .slick-prev,
+.marketplace-carousel .slick-next {
+  background-color: rgb(20, 75, 31);
+  border-radius: 50%; /* Make buttons circular */
+}
+
+/* Optionally, you can add styles to customize other aspects of the buttons, like hover effects */
+.marketplace-carousel .slick-prev:hover,
+.marketplace-carousel .slick-next:hover {
+  background-color: rgb(39, 111, 66); /* Change color on hover */
+}
+
+.marketplace-header {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  margin-left: 10%;
+  margin-top: 4%;
+  text-align: left;
+}
+
+.marketplace-header h2 {
+  font-size: 3vw; /* Adjust font size as needed */
+  margin-bottom: 0; /* Remove bottom margin */
+}
+
+.marketplace-header p {
+  margin-top: 0; /* Remove top margin */
+}
+
+.marketplace-header button {
+  background-color: #db3434;
+  border: none;
+  border-radius: 50px; /* Make it round */
+  padding: 3% 4%;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add smooth transition */
+}
+
+.marketplace-header button:hover {
+  background-color: #ef3535; /* Change color on hover */
+}
+
+/* Additional styling */
+.our-products {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 24px;
+  margin-bottom: -10%;
+}
+
+/* Styling for the list of produces */
+.market-produces {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  gap: 20px;
+  padding: 10%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.market-produce {
+  max-width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  margin-bottom: 10px; /* Increase margin between produce items */
+}
+
+.market-produce:hover {
+  transform: scale(1.05);
+}
+
+.produce-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.market-name {
+  margin-bottom: 0%;
+  font-size: 20px;
+}
+
+.market-description {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 0%;
+}
+
+.market-price {
+  display: block;
+  margin-bottom: 8%;
+  font-size: 16px;
+}

@@ -1,0 +1,75 @@
+/* SHOP PAGE */
+
+/* Container for the shop content */
+.shop-content {
+  padding: 20px;
+  margin-bottom: 300px;
+}
+
+/* Styling for the list of produces in the shop */
+.shop-produces {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Styling for each individual produce in the shop */
+.shop-produce {
+  max-width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.shop-produce:hover {
+  transform: scale(1.05);
+}
+
+/* Styling for the images of produces in the shop */
+.shop-produce img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the name of the produce in the shop */
+.shop-name {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+/* Styling for the description of the produce in the shop */
+.shop-description {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the price of the produce in the shop */
+.shop-price {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Styling for the "Add to Cart" button in the shop */
+.add-to-cart-button {
+  background-color: #398163;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+  background-color: #317153;
+}

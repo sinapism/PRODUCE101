@@ -1,0 +1,44 @@
+.market-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; /* Add padding for better spacing */
+    background-color: #398163;
+  }
+  
+  .nav-buttons {
+    display: flex;
+  }
+  
+  .shop-button, .account-button, .cart-button {
+    margin-right: 20px;
+    background: none; /* Remove the background */
+    border: none; /* Remove border if any */
+    padding: 0; /* Remove padding to make text closer to the edge */
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  /* Optionally, you can add styles for hover effects */
+  .shop-button:hover, .account-button:hover, .cart-button:hover {
+    text-decoration: underline; /* Underline the text on hover */
+  }
+
+  
+.logout {
+  background-color: #08462c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 20px; /* Add rounded corners to the button */
+  transition: background-color 0.3s ease; /* Add a smooth transition */
+}
+
+.logout:hover {
+  background-color: #589667; /* Change the color on hover */
+}

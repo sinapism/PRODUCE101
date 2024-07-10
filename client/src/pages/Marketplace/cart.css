@@ -1,0 +1,16 @@
+.center-message {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  
+  .center-message h2 {
+    font-size: 24px;
+    margin-bottom: 1px;
+  }
+  
+  .center-message p {
+    font-size: 16px;
+    color: #555;
+  }
+  

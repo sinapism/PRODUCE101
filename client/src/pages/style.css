@@ -1,0 +1,13 @@
+/* Common styling for the entire document */
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #ffffff;
+  margin: 0; /* Remove default margin to ensure full-screen content */
+}
+
+
+
+

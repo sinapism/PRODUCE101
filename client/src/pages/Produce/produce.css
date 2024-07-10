@@ -1,0 +1,119 @@
+/* STYLES FOR THE "PRODUCE PAGE" */
+
+
+/* Add button styling */
+.addHome {
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  border: none;
+  background-color: #db3434;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* INVENTORY TABLE */
+.produces-table {
+  width: 90%;
+  margin: 20px auto; /* Center the table horizontally */
+  border-collapse: collapse;
+
+}
+
+.produce-header th {
+  background-color: #398163;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  text-align: center;
+}
+
+.produce {
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+
+}
+
+.column-name {
+  padding: 10px;
+}
+
+.column-name img {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+}
+
+.button-container {
+  position: relative;
+}
+
+/* ACTIONS BUTTON */
+.button-container .dropdown-content {
+  position: absolute;
+  z-index: 1;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  max-height: calc(100vh - 50px);
+  overflow-y: auto;
+}
+
+/* Delete button style */
+.button-container .delete,
+.button-container .update {
+  background-color: #db3434;
+  color: #ffffff;
+  border: none;
+  width: 100px;
+  cursor: pointer;
+  padding: 5px 0;
+  display: block; 
+  margin-top: 8px; 
+}
+
+.button-container .update {
+  background-color: #db3434;
+}
+
+.button-container .dropdown-image {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* FORMS */
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+/* Input field styling */
+input,
+textarea {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+/* Button styling within the form */
+button {
+  border: none;
+  padding: 10px;
+  background-color: #db3434;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+}
